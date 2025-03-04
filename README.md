@@ -1,3 +1,9 @@
+<div align="center">
+
+    <img width="250px" src="logo.png"/>
+
+</div>
+
 # ARP Spoofing Detector and Response
 
 This Python script is designed to detect and respond to ARP spoofing attacks in Linux systems within a local network. It utilizes the Scapy library to sniff ARP packets and compare the MAC addresses to identify potential spoofing attempts.
@@ -49,8 +55,8 @@ The script uses a custom logging configuration that outputs messages to both the
 
     DEBUG: Cyan
     INFO: Green
-    WARNING: Red
-    ERROR: Yellow
+    WARNING: Yellow 
+    ERROR: Red
     CRITICAL: Magenta
 ## Main Functions
 

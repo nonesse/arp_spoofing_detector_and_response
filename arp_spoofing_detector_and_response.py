@@ -24,9 +24,9 @@ class ColoredFormatter(logging.Formatter):
         elif level == logging.INFO:
             return f"{self.GREEN}{message}{self.RESET}"
         elif level == logging.WARNING:
-            return f"{self.RED}{message}{self.RESET}"
-        elif level == logging.ERROR:
             return f"{self.YELLOW}{message}{self.RESET}"
+        elif level == logging.ERROR:
+            return f"{self.RED}{message}{self.RESET}"
         elif level == logging.CRITICAL:
             return f"{self.MAGENTA}{message}{self.RESET}"
         return message
